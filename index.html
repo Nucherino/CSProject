@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CS Project</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="ajax.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body onload="getData();">
+    <h1>Graphs!</h1>
+    <input type="text" id="boroText">
+    <button onclick="getBoroData();">Plot it!</button>
+    <div id="LineGraph" style="height : 100%; width : 100%;"></div>
+    <div id="PieChart"></div>
+    <div id="BarChart"></div>
+</body>
+</html>
